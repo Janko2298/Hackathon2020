@@ -4,10 +4,10 @@
 <div class="container mb-5">
     <div class=" ">
         <div class="">
-            <div class="card   border-form ">
-                <div class="card-header border-primary border-width text-center">{{ __('Login') }}</div>
+            <div class="card  background  border-form ">
+                <div class="card-header bg-transparent border-primary border-width text-center">{{ __('Login') }}</div>
 
-                    <div class="card-body">
+                    <div class="card-body ">
 
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
